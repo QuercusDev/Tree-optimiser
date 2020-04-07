@@ -28,7 +28,12 @@ Scanner hHead = new Scanner(System.in);
 
     public static double logVol() {
         //this is where the log volumes will be calculated
-        //log volume 
+        //log volume will be multplied by logValue to get a total tree value
+        return 0;
+    }
+    public static double logValue() {
+        //this is where the log values will be calculated
+
         return 0;
     }
 
