@@ -18,7 +18,12 @@ public class Main {
         System.out.format("\nFor every 1 meter of length the diameter decreases by: %.2f cm's",taper);
         double nonMerchantableLength = 7/taper;
         double MerchantableLength = treeLength - nonMerchantableLength;
-        
+
+        double [] [] cuttingStrategy1 = {{5.4, 400, 3.7, 300, 2.5, 200, 1.9, 100, 3.0, 10}};
+        double [] [] cuttingStrategy2 = {{4.9, 400, 3.7, 300, 3.1, 200, 1.9, 100, 3.0, 10}};
+        double [] [] cuttingStrategy3 = {{4.3, 400, 3.1, 300, 2.5, 200, 1.6, 100, 3.0, 10}};
+
+
 
     }
 
